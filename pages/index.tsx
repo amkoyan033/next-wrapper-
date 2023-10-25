@@ -77,5 +77,7 @@ export const getStaticProps = wrapper.getStaticProps(
       const data1 = await store.dispatch(getCategoryThunk()).unwrap();
       store.dispatch(getProduct(data));
       store.dispatch(getCategory(data1));
+      
     }
 );
+console.log("Welcome")
